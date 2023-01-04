@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@font-face {
+    font-family: 'China';
+    src: url(fonte/China\ Syndrome\ DEMO.otf);
+}
+
+:root{
+    --cor1:#EE6E47;
+    --cor2:#EB3700;
+    --cor3:#B82B00;
+    --cor4:#6B3220;
+    --cor5:#6B1900;
+    --font-texto:'Open Sans', 'Sans-serif';
+    --font-titulo:'China', 'cursive';}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: var(--cor3);
+    min-width: 350px;
+    max-width: 1016px;
+    height: 150px;
+    margin:auto;
+    background-image:linear-gradient(to bottom, var(--cor3), var(--cor5));
+}
+
+header h1{
+    font: var(--font-titulo);
+    font-size: 3em;
+    text-align: center;
+    margin: 0px 2px 23px 0px;
+}
+
+header p{
+    font: var(--font-texto);
+    color: white;
+    font-size: 1.2em;
+    margin: 1px 1px 1px 1px;
+    text-align: center;
+}
+nav{
+    margin: 27px 7px 0px 0px;
+}
+nav a{
+    text-decoration: none;
+    text-align: right;
+    color: black;
+    background-color: var(--cor3);
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 1.2em;
+    margin:2px 2px 2px 2px;
+    transition-duration: 0.2s;
+    
+}
+nav > a:hover{
+    text-decoration:underline;
+    background-color: var(--cor2);
+    color: var(--cor4);
+}
+
+main, aside{
+    max-width: 614px;
+    min-width: 350px;
+    background-color:var(--cor1);
+    box-shadow: 1px 0px 6px black;
+
+}
+
+main, aside p{
+    text-align: justify;
+    font: var(--font-texto);
+    text-indent: 30px;
+    margin:15px 10px 15px 3px;
+    
+}
+
+.elias{
+
+   max-width: 350px;
+   border-radius: 3px;
+   display: block;
+   margin:0px auto;
+   border-radius:6px;
+}
+ main h2{
+    font:var(--font-titulo);
+    background-image:linear-gradient(to right, var(--cor2), transparent);
+    color:white;
+    font-size: 1.4em;
+    padding:1px;
+
+ }
+
+ main a{
+    text-decoration: none;
+    color: rgb(20, 62, 90);
+  
+ }
+
+ a.externo::before{
+    content: '\1f517';
+ }
+
+ a.externo:hover{
+    text-decoration: underline;
+    font-weight: bold;
+ }
+
+ ul{
+    columns: 1;
+    list-style-position: inside;
+ }
+
+ li{
+    list-style-type: '\2714';
+ }
+
+ aside{
+    background-color: rgb(20, 62, 90);
+    margin: -15px 6px -18px 3px;
+
+ }
+
+ aside a{
+    color: rgb(204, 204, 78);
+ }
+
+ footer{
+    margin:60px 0px 0px 0px;
+    min-width: 350px;
+    max-width: 1000px;
+    background-color: var(--cor1);
+ }
+
+ footer p{
+    margin: none;
+    text-align: center;
+ }

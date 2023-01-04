@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    background-color: blue;
+}
+header{
+   
+    height:243px;
+    width: 1000px;
+    background-color: rgb(255, 178, 36);
+    margin: 1px 1px 1px 1px;
+}
+Header > img{
+    display: inline;
+    height: 100px;
+    width: 100px;
+    margin: -90px 12px 10px 235px;
+}
+nav > a{
+    font-size: 19px;
+    text-indent: 30px;
+    text-decoration: none;
+}
+nav > a > img{
+    height:20px;
+    width: 20px;
+    text-align: auto;
+}
+nav > a:hover{
+    text-indent: 30px;
+    text-decoration: underline;
+    color:red
+}
+
+img#miguel{
+    height: 174px;
+    width: 194px;
+    margin: -121px auto auto 383px;
+    border: 10px solid white;
+    outline: 5px solid blue;
+
+}
+img#vote{
+    height: 179px;
+    width: 222px;
+    margin: -195px -3px 8px 732px;
+}
+main{
+    height: 174px;
+    width: 593px;
+    background-color: rgb(255, 178, 36);
+    margin: 1px 1px 1px 1px;
+
+}

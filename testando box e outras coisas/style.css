@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+img#Fotolenin{
+    display:inline;
+    width: 251px;
+    height: 252px;
+    border: 10px solid black;
+    margin:1px 3px -234px 121px;
+  
+
+}
+h1#principal{    
+    display: inline;
+    font: normal bold 2em 'sans-serif';
+    width: 100px;
+    height:100px;
+    margin: -4px -4px -12px 262px;
+    
+}
+ul#bio{
+    text-align: right;
+    font:normal normal 1em 'sans-serif';
+    width: 382px;
+    height: 114px;
+    margin: -16px -6px -32px - 29px;
+
+}
+h2#quem{
+    font:normal normal 1.5em 'sans-serif';  
+}
