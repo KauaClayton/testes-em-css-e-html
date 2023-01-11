@@ -1,0 +1,51 @@
+@charset "UTF-8";
+@font-face{ 
+    font-family: 'cream, cursive';
+    src: url('cream_cake/Cream\ Cake.otf');
+}
+
+:root{
+    --cor1:#FFF649;
+    --cor2:#FF2222;
+    --cor3:#7FB285;
+    --cor4:#242038;
+    --font-texto:'sans-serif';
+    --font-subtitulos:'cream, cursive'
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+   background: black url('https://cultura.uol.com.br/upload/tvcultura/noticias/20211102150415_marighella.jpg') center center no-repeat fixed;
+   background-size: cover;
+
+}
+header{
+    background-color: white;
+    margin-bottom: 30px;
+    max-width: 1030px;
+    min-width: 230px;
+    height: 100px;
+    background-image: linear-gradient(to bottom, var(--cor1), #FF2227);}
+
+header h1{
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+nav{
+   
+    margin-top: 48px;
+}
+
+nav a{
+    background-color: var(--cor1);
+    
+}
+main{
+    background-color: white;
+}
