@@ -6,7 +6,7 @@
 
 :root{
     --cor1:#FFF649;
-    --cor2:#FF2222;
+    --cor2:#9e2123;
     --cor3:#7FB285;
     --cor4:#242038;
     --font-texto:'sans-serif';
@@ -29,7 +29,7 @@ header{
     max-width: 1030px;
     min-width: 230px;
     height: 100px;
-    background-image: linear-gradient(to bottom, var(--cor1), #FF2227);}
+    background-image: linear-gradient(to bottom, var(--cor1), #9e2123);}
 
 header h1{
     text-align: center;
@@ -39,13 +39,57 @@ header h1{
 }
 nav{
    
-    margin-top: 48px;
+    margin-top: 41px;
 }
 
-nav a{
-    background-color: var(--cor1);
+nav a, nav a:visited{
+    text-decoration: none;
+    background-color:  #9e2123;
+    border-radius: 5px;
+    color: black;
+ 
+    padding: 2px;
+    font-size: 1.3em;
+    margin:2px 2px 2px 2px;
+    transition-duration: 0.2s;
     
 }
-main{
-    background-color: white;
+nav a:hover{
+    text-decoration: underline;
+    background-color: #c72427;
+
 }
+main{
+    background-color: rgba(255, 255, 255, 0.719);
+    margin: auto;
+    max-width: 600px;
+    min-width: 250px;
+    border-radius: 6px;
+    box-shadow: 5px 4px 11px  black;
+    padding: 5px;
+}
+
+main p{
+    font: var(--font-texto);
+    line-height: 20px;
+}
+
+main a, main a:visited{
+    text-decoration: none;
+    color: #4833b4;
+    font-weight: 700;
+}
+ main a:hover{
+    text-decoration: underline;
+    font-weight: 500;
+ }
+ a.fora::before{
+    content:'\1f517';
+    color:black;
+
+ }
+
+ main ul{
+    list-style-position: inside;
+ }
+

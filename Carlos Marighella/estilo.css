@@ -1,0 +1,24 @@
+@charset "UTF-8";
+@font-face{ 
+    font-family: 'cream, cursive';
+    src: url('cream_cake/Cream\ Cake.otf');
+}
+
+:root{
+    --cor1:#FFF649;
+    --cor2:#9e2123;
+    --cor3:#7FB285;
+    --cor4:#242038;
+    --font-texto:'sans-serif';
+    --font-subtitulos:'cream, cursive'
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: black url('https://pt.org.br/wp-content/uploads/2015/07/carla.jpg') left center no-repeat fixed;
+    background-size: cover;
+}
