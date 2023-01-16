@@ -1,0 +1,26 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'london';
+    src: url('fontes/old_london/Olondon_.otf');
+}
+    
+
+
+:root{
+    --cor1:#A64DFF;
+    --cor2:#8000FF;
+    --cor3:#6600CC;
+    --cor4:#532680;
+    --cor5:#400080;
+    --titulo:'london', 'cursive';
+    --texto:'Arial, Helvetica, sans-serif';
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+}
