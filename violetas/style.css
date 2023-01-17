@@ -11,7 +11,7 @@
     --cor2:#8000FF;
     --cor3:#6600CC;
     --cor4:#532680;
-    --cor5:#400080;
+    --cor5:#250546;
     --titulo:'london', 'cursive';
     --texto:'Arial, Helvetica, sans-serif';
 }
@@ -21,6 +21,120 @@
     padding: 0px;
 }
 
+body{
+     
+    background-color: #71568a;
+}
 header{
+    position: relative;
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
+    width: 100%;
+    height: 147px;
+    margin-bottom: 50px;
+}
+
+header h1{
+    font-family: var(--titulo);
+    font-size: 5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    top: 79%;
+}
+
+nav a, nav a:visited{
+    background-color: var(--cor1);
+    color: rgb(245, 245, 108);
+    font-size: 1.7em;
+    margin: 2px 2px 2px 2px;
+    text-decoration: none;
+    border-radius: 6px;
+
+}
+
+nav a:hover{
+    background-color: var(--cor3);
+
+}
+
+main{
+    margin:auto;
+    max-width: 950px;
+    min-width: 200px;
+    background-color: rgba(255, 255, 255, 0.521);
+    height: 100%;
+    
+}
+
+main h2{
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main p{
+    font-size: 1.2em;
+    text-indent: 30px;
+    line-height: 30px;
+}
+
+#container{
+
+    position: relative;
+    height: 37em;
+    
+    background: var(--cor1) url('https://www.10wallpaper.com/wallpaper/2560x1600/1311/small_violet_flowers-Photo_HD_Wallpaper_2560x1600.jpg')
+    left center no-repeat fixed;
+    background-size: cover;
+}
+
+#container h2{
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+
+}
+
+#container p{
+    font-size: 1em;
+   padding-top:5px;
+}
+
+
+#poema{
+    position: absolute;
+    background-color: rgba(238, 231, 231, 0.623);
+    left:65%;
+    top:10%;
+    border-radius: 5px;
+    max-height: 487px;
+    min-height: 100px;
+}
+
+#video{
+    background-color: var(--cor5);
+  
+    padding-bottom: 50%;
+    position: relative;
+}
+
+#video > iframe{
+    position: absolute;
+    top:5%;
+    left:5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer{
+    margin:10px auto 0px auto;
+    background-color: var(--cor5);
+    
+    text-align: center;
+}
+
+footer p{
+    color: yellow;
 }
