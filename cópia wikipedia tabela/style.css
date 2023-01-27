@@ -44,12 +44,17 @@ td{
 
 
 
-td a{
+td a, td a:visited{
     position: absolute;
     left: 29px;
-    bottom: 5px;
-    font-size: 0.9em;
+    bottom: 6px;
+    font-size: 0.8em;
+    text-decoration: none;
 
+}
+td a:hover{
+    color: gold;
+    text-decoration: underline;
 }
 
 
