@@ -12,19 +12,31 @@ main{
     height:1000px;
     width: 100%;
 
-    background:url('https://tonamidia.com.br/wp-content/uploads/2023/01/Tierry-e-ManoelGomes-LaEle-02_ToNaMidia.jpg') left center no-repeat scroll;
+    background:url('https://www.portalimaranhao.com.br/wp-content/uploads/2022/12/318746628_5667644309951584_1844965640805144176_n.jpg') left center no-repeat scroll;
     background-size: cover;
    
+}
+
+header{
+    position: absolute;
+    height: 30px;
+    width: 98vw;
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    margin-bottom: 20px;
+}
+
+header h2{
+    padding-top: 5px;
 }
 
 
 article#musicas{
-   
+    position: absolute;
+    left:50%;
+	top:20%;
+	transform: translate(-50%, -50%);
     font-size: 1.2em;
     display: block;
     min-width: 120px;
@@ -40,7 +52,7 @@ article#musicas{
     
 }
 article#musicas li{
-    padding-left: 45px;
+    padding-left: 15px;
 }
 
 article#musicas a, article#musicas:visited{
@@ -51,14 +63,22 @@ article#musicas a, article#musicas:visited{
 }
 
 article#musicas a:hover{
-    color: rgb(36, 31, 31);
+    color: rgb(53, 51, 161);
     font-weight: bold;
+    
     text-decoration: underline;
 }
 
 iframe{
     position: absolute;
-    display: block;
-    margin: 0px auto;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px black;
+    border: 1px solid black;
+    
  
 } 
