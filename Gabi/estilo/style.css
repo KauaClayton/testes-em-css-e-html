@@ -1,0 +1,93 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'Gotico, cursive';
+    src: url('BLACCS__.TTF');
+}
+
+
+body{
+    background: url('https://c4.wallpaperflare.com/wallpaper/908/631/590/hello-kitty-1440x900-anime-hello-kitty-hd-art-wallpaper-preview.jpg') left bottom no-repeat fixed;
+    background-size: cover;
+}
+
+header{
+    position: relative;
+    height: 200px;
+    width: 98vw;
+ 
+   
+}
+header h1{
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Gotico, cursive';
+    margin-bottom: 20px;
+}
+nav a{
+    position: relative; 
+    
+  
+    
+  
+}
+nav{
+    position: absolute;
+    top: 56%;
+    height: 88px;
+    width: 98vw;
+
+    
+}
+
+nav img{
+    box-sizing: border-box;
+    box-shadow: 1px 1px 3px black;
+}
+
+a img{
+    position: absolute;
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    
+}
+
+nav img:hover{
+    transition: transform 1s, border 1s;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black;
+  
+
+
+}
+
+.kit{
+    left: 0%;
+    top: 5%;
+    
+}
+
+.mano{
+    
+    top: 62%;
+
+}
+
+.tulipa{
+  
+    top:121%;
+ 
+}
+
+iframe{
+    position: relative;
+    left: 25%;
+
+    top: 30%;
+    height: 36vw;
+    width: 70vw;
+}
+
+
+
+
