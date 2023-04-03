@@ -1,0 +1,29 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'soviet';
+    src: url(soviet_style/SovietStyle-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --cor1: #DB0F00;
+    --cor2: #A80B00;
+    --cor3: #fafa97;
+    --font-Padrão: 'Arial';
+    --fonttitulo: 'soviet', 'cursive';
+}
+
+body{
+    position: absolute;
+    background-color: var(--cor2);
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    position: relative;
+    background-color: var(--cor3);
+}
