@@ -21,12 +21,13 @@ body{
     background-color: var(--cor2);
     width: 100vw;
     height: 100vh;
+    font-family: var(--font-Padrão);
 }
 
 header{
     position: relative;
     background-image: linear-gradient(to bottom, var(--cor3), #e5ff55 );
-    height: 150px;
+    height: 100px;
 }
 header h1{
     text-align: center;
@@ -58,3 +59,67 @@ nav a{
 
 }
 
+nav a:hover{
+    background-color: #dd1001;
+}
+
+nav a:active{
+    background-color: #5f0600;
+}
+
+nav p{
+    position: relative;
+    font-size: 1em;
+    top: 25%;
+}
+
+main{
+    position: absolute;
+    width: 100vw;
+}
+
+main article{
+    display: block;
+    background-color: var(--cor1);
+    height: 450px;
+    width: 450px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.733);
+}
+
+main article p{
+    padding: 4px;
+    font-size: 1.63em;
+    font-family: var(--fonttitulo);
+}
+
+main article input{
+    display: block;
+    width: 50%;
+    height: 80px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 2.8em;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.658);
+    cursor: pointer;
+}
+
+main article input:hover{
+    background-color: rgb(211, 211, 211);
+}
+
+main article input:active{
+    background-color: rgb(163, 163, 163);
+}
+
+main article div#img{
+    background: url('https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/819d9M7EWCL.jpg') center center no-repeat scroll;
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
