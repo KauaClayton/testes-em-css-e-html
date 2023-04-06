@@ -28,6 +28,7 @@ header{
     position: relative;
     background-image: linear-gradient(to bottom, var(--cor3), #e5ff55 );
     height: 100px;
+    width: 100vw;
 }
 header h1{
     text-align: center;
