@@ -36,9 +36,13 @@ function clicou(){
         ima.style = 'Background-image: url("https://averdade.org.br/wp-content/uploads/2012/04/karl_marx_cropped.png")'
         resp.innerHTML = 'Karl Marx foi um filósofo, economista, historiador, sociólogo, teórico político, jornalista, e revolucionário socialista alemão. Nascido em Tréveris, Prússia, Marx estudou direito e filosofia nas universidades de Bona e Berlim. Casou-se com a crítica de teatro e ativista política alemã Jenny von Westphalen em 1843.' 
     }
-    else if(num >= 4){
+    else if(num == 4){
         artig.style = 'height:520px'
         ima.style = 'Background-image: url("https://boitempoeditorial.files.wordpress.com/2017/10/che-economia-e-revolucao.jpg?w=620&h=459")'
         resp.innerHTML = 'Ernesto Guevara de la Serna, mais conhecido como Che Guevara, foi um revolucionário marxista, médico, autor, guerrilheiro, diplomata e teórico militar argentino. Uma figura importante da Revolução Cubana, seu rosto estilizado tornou-se um símbolo contracultural de rebeldia e insígnia global na cultura popular'
+    }
+    else if(num >= 5){
+        ima.style = 'Background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Kim_Il_Sung_Portrait-4.jpg")'
+        resp.innerHTML = 'Kim Il-sung foi o líder da Coreia do Norte desde a fundação do país em 1948 até à data da sua morte. Sucedeu-lhe como líder o seu filho, Kim Jong-il. Exerceu o cargo de primeiro-ministro de 1948 a 1972 e de presidente de 1972 até à sua morte. '
     }
 }
