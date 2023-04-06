@@ -22,26 +22,27 @@ function clicou(){
         resp.innerHTML = 'foi um revolucionário comunista, político e teórico político russo que serviu como chefe de governo da Rússia Soviética de 1917 a 1924 e da União Soviética de 1922 até sua morte'
     }
     else if(num == 1){
-        artig.style = 'height:480px'
+        artig.style = 'height:500px'
         ima.style = 'Background-image: url("https://jacobin.com.br/wp-content/uploads/2021/05/GettyImages-151356608.jpeg")'
         resp.innerHTML = 'Thomas Isidore Noël Sankara foi um militar, revolucionário marxista, pan-africanista e líder político de Burkina Faso. Foi um popular capitão e o primeiro-ministro quando o país ainda se chamava República do Alto Volta.'
     }
     else if(num == 2){
-        artig.style = 'height:480px'
+        artig.style = 'height:540px'
         ima.style = 'Background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2b/Marighella_foto3_deputado_46-47_apeerj_%28cropped%29.jpg")'
         resp.innerHTML = 'Carlos Marighella foi um político, escritor e guerrilheiro comunista marxista-leninista brasileiro. Um dos principais organizadores da luta armada contra a ditadura militar brasileira, Marighella chegou a ser considerado o inimigo "número um" do regime.'
     }
     else if(num == 3){
-        artig.style = 'height:520px'
+        artig.style = 'height:550px'
         ima.style = 'Background-image: url("https://averdade.org.br/wp-content/uploads/2012/04/karl_marx_cropped.png")'
         resp.innerHTML = 'Karl Marx foi um filósofo, economista, historiador, sociólogo, teórico político, jornalista, e revolucionário socialista alemão. Nascido em Tréveris, Prússia, Marx estudou direito e filosofia nas universidades de Bona e Berlim. Casou-se com a crítica de teatro e ativista política alemã Jenny von Westphalen em 1843.' 
     }
     else if(num == 4){
-        artig.style = 'height:520px'
+        artig.style = 'height:550px'
         ima.style = 'Background-image: url("https://boitempoeditorial.files.wordpress.com/2017/10/che-economia-e-revolucao.jpg?w=620&h=459")'
         resp.innerHTML = 'Ernesto Guevara de la Serna, mais conhecido como Che Guevara, foi um revolucionário marxista, médico, autor, guerrilheiro, diplomata e teórico militar argentino. Uma figura importante da Revolução Cubana, seu rosto estilizado tornou-se um símbolo contracultural de rebeldia e insígnia global na cultura popular'
     }
     else if(num >= 5){
+        artig.style = 'height:500px'
         ima.style = 'Background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Kim_Il_Sung_Portrait-4.jpg")'
         resp.innerHTML = 'Kim Il-sung foi o líder da Coreia do Norte desde a fundação do país em 1948 até à data da sua morte. Sucedeu-lhe como líder o seu filho, Kim Jong-il. Exerceu o cargo de primeiro-ministro de 1948 a 1972 e de presidente de 1972 até à sua morte. '
     }
