@@ -26,7 +26,7 @@ body{
 
 header{
     position: relative;
-    background-image: linear-gradient(to bottom, var(--cor3), #e5ff55 );
+    background-image: linear-gradient(to bottom, var(--cor3), #9bb409 );
     height: 100px;
     width: 100vw;
 }
