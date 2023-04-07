@@ -46,9 +46,14 @@ function clicou(){
         ima.style = 'Background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f1/Kim_Il_Sung_Portrait-4.jpg")'
         resp.innerHTML = 'Kim Il-sung foi o líder da Coreia do Norte desde a fundação do país em 1948 até à data da sua morte. Sucedeu-lhe como líder o seu filho, Kim Jong-il. Exerceu o cargo de primeiro-ministro de 1948 a 1972 e de presidente de 1972 até à sua morte. '
     }
-    else if(num >= 6){
+    else if(num == 6){
         artig.style = 'height:450px'
         ima.style = 'Background-image: url("https://ichef.bbci.co.uk/news/640/cpsprodpb/38EB/production/_124717541_gettyimages-104416848.jpg")'
         resp.innerHTML = 'Ho Chi Minh foi um revolucionário, político, escritor, poeta e jornalista vietnamita. Também conhecido por seu nome de batismo Nguyễn Sinh Cung e pelo pseudônimo Nguyen Ai Quoc, foi um revolucionário e estadista vietnamita.'
+    }
+    else if(num >= 7){
+        artig.style = 'height:460px'
+        ima.style = 'Background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/a9/Mao_Zedong_1959.jpg")'
+        resp.innerHTML = 'Mao Tsé-Tung, em chinês tradicional: 毛澤東; chinês simplificado: 毛泽东; Mao Tsé-Tung pela transliteração Wade-Giles, ou Máo Zédōng, pela pinyin; foi um político, teórico, líder comunista e revolucionário chinês.'
     }
 }
