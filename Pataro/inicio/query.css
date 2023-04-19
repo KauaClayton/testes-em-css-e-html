@@ -1,0 +1,22 @@
+@media screen and (min-width:768px) {
+    body{
+        background-image: linear-gradient(to bottom, #add8e6, #69CAEA );
+    }
+    img{
+        width: 350px;
+        height: 300px;
+    }
+    
+    
+}
+
+@media screen and (min-width:1021px) {
+    img{
+        width: 380px;
+        height: 330px;
+    }
+    p{
+        font-size: 1.5em;
+    }
+    
+}
