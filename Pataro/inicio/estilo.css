@@ -1,0 +1,78 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'scott';
+    src: url(../dusty/Dusty.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+:root{
+    --cor1:#add8e6;
+    --cor2:#69CAEA;
+    --cor3:#2E5866;
+    --cor4:#86A7B3;
+    --font-titulo:'scott', cursive;
+    --font-texto: 'Arial'
+}
+
+body{
+    height:100vh;
+    width: 100vw;
+    background-color: var(--cor1)
+}
+
+h1{
+    font-family: var(--font-titulo);
+    text-align: center;
+    font-size: 2.4em;
+    padding-top: 20px;
+
+}
+
+h2{
+    font-family:var(--font-texto);
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+img{
+    display: block;
+    height: 221px;
+    width: 287px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px black solid;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+
+
+input[type=button]{
+    border: 0.5px black solid;
+    display: block;
+    margin: auto;
+    width: 219px;
+    height: 56px;
+    margin-top: 15px;
+    font-size: 1.5em;
+}
+
+input[type=button]:active{
+    color:var(--cor3);
+    background-color: #d6d5d5;
+}
+
+p{
+    text-align: center;
+    font-family: var(--font-texto);
+    font-size: 1.1em;
+    margin-top: 15px;
+}
