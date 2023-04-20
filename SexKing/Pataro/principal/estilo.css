@@ -73,6 +73,14 @@ input[type=button]{
     box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.268);
 }
 
+input:hover{
+    cursor: pointer;
+}
+input[type=button]:active{
+    background-color: var(--cor1);
+
+}
+
 footer{
     position: absolute;
     bottom: 0px;
