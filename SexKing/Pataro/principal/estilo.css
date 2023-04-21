@@ -64,7 +64,15 @@ p{
     margin-top: 10px;
   
 }
+article{
+    margin: auto;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.459);
+    border-radius: 10px;
+    padding: 20px;
+    width: 83vw;
 
+}
 input[type=button]{
     display: block;
     width: 250px;
@@ -77,15 +85,6 @@ input:hover{
     cursor: pointer;
 }
 input[type=button]:active{
-    background-color: var(--cor1);
-
-}
-
-footer{
-    position: absolute;
-    bottom: 0px;
-    width: 100vw;
-    text-align: center;
     background-color: var(--cor1);
 
 }
