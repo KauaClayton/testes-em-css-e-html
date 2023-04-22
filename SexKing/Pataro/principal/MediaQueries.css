@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+:root{
+    --cor1:#add8e6;
+    --cor2:#69CAEA;
+    --cor3:#2E5866;
+    --cor4:#86A7B3;
+    --font-titulo:'scott', cursive;
+    --font-texto: 'Arial'
+}
+
+@media screen and (min-width:768px) {
+    img{
+        width: 500px
+    }
+    article{
+        width: 650px;
+    }
+    
+}
+
+@media screen and (min-width:900px) {
+    main{
+        background-image: linear-gradient(to bottom, var(--cor4), var(--cor3) );
+    }
+}
