@@ -19,6 +19,23 @@ function mudar(){
         num++
     }
     else if(num == 3){
-        
+        foto.src = 'imagem/PataroGian.jpg'
+        resp.innerHTML = 'oi feia, feliz aniversário!!🤕❤️ \n mano tem noção q fez 5 anos q a gente se conhece? aconteceu tanta coisa e me impressiona a gente ainda ser amigo, mesmo com eu implicando tanto com vc em 2018, sla é bom ainda ser seu amigo, enfim aproveita seu dia. adoro vc!!🤍'
+        num++
+    }
+    else if(num == 4){
+        foto.src = 'imagem/PataroPeter.jpg'
+        resp.innerHTML = 'feliz aniversário pataro, muitos anos de vida pra voce, espero que ce tenha um dia mto daora legal, papai do céu te abençoe e aproveita seu dia, amo vc🫶'
+        num++
+    }
+    else if(num == 5){
+        foto.src = 'imagem/PataroEmily.jpg'
+        resp.innerHTML = 'pataro crack você é mto mto foda, todas as vezes que a gente tá junta eu dou umas risadas sinceras(mesmo me sentindo uma fudida de rir de umas bobagemkkkkkkkkk). Amo dividir armário com vc, uma organização imensa, ainda mais com as nossas profissões coladas na porta do armário:pedreira e uber🤍 feliz aniversário eu até gosto de vc fumante de pod.'
+        num++
+    }
+    else if(num == 6){
+        foto.src = 'imagem/PataroDeb.jpg'
+        resp.innerHTML = 'Feliz aniversário de todo SexKing Pataro!!!!!! Clique novamente no botão para recomeçar os textos.'
+        num = 0
     }
 }
