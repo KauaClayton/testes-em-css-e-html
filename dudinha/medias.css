@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*Tablet*/
+@media screen and (min-width:769px) {
+    body{
+        max-width: 992px;
+    }
+    header{
+        max-width: 992px;
+    }
+    
+}
+
+/*Pc*/
+
+@media screen and (min-width:993px) {
+    body{
+        max-width: 1200px;
+    }
+    header{
+        max-width: 1200px;
+    }
+}
