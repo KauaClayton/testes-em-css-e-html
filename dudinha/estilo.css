@@ -107,6 +107,7 @@ article#mus h2{
 
 article#mus iframe{
     width: 60vw;
+    height: 500px;
     align-self: center;
 }
 
@@ -114,4 +115,22 @@ article#mus ul{
     font-size: 1.2em;
     margin: auto;
     display: block;
+}
+
+article#mus a{
+   color: var(--cor2);
+   opacity: 0.9;
+}
+
+article#mus a:hover{
+    font-weight: bold;
+    color: var(--cor3);    
+}
+
+article#mus a:active{
+    opacity: 1;
+}
+
+article#mus a:visited{
+    text-decoration: none;
 }
