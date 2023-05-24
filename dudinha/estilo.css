@@ -48,7 +48,7 @@ header p{
 
 }
 
-main{
+main, footer{
     background-color: var(--cor1);
 }
 
@@ -133,4 +133,45 @@ article#mus a:active{
 
 article#mus a:visited{
     text-decoration: none;
+}
+
+article#poema{
+    display: flex;
+    width: 90vw;
+    background: url('https://images.unsplash.com/photo-1597080021575-c26f393bd6c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHw%3D&w=1000&q=80') no-repeat fixed;
+    background-size: cover;
+    margin: auto;
+    color: white;
+    flex-direction: column;
+    padding-bottom: 100px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.555);
+
+}
+
+article#poema h2{
+    font-size: 1.3em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.562);
+}
+
+article#poema div{
+    align-self:center;
+    width: 62vw;
+    margin-top: 30px;
+}
+
+article#poema p{
+    align-self: center;
+    margin-top: 20px;
+}
+
+footer{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+
+}
+footer p{
+    padding: 5px;
+    background-color: var(--cor2);
 }

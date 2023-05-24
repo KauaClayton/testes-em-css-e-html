@@ -8,6 +8,23 @@
     header{
         max-width: 992px;
     }
+    div#momentos img{
+        height: 200px;
+        width: 330px;}
+    div#momentos span{
+        font-size: 6em;
+    }
+    div#momentos p{
+        font-size: 1.1em;
+    }
+    article#mus iframe{
+        width: 70vw;
+        height: 500px;
+        align-self: center;
+    }
+    footer{
+        background-color: black;
+    }
     
 }
 
