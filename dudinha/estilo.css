@@ -104,6 +104,7 @@ div#momentos p#num{
 
 
 article#mus{
+    height: 500px;
     display: flex;
     flex-direction: column;
 } 
