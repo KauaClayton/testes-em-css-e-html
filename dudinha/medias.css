@@ -22,9 +22,13 @@
         height: 500px;
         align-self: center;
     }
-    footer{
-        background-color: black;
+    article#poema{
+        width: 65vw;
     }
+    article#poema div{
+        width: 45vw;
+    }
+  
     
 }
 
@@ -37,4 +41,21 @@
     header{
         max-width: 1200px;
     }
+    div#momentos img{
+        height: 250px;
+        width: 400px;}
+    div#momentos p{
+        font-size:20px;
+    }
+    div#momentos span{
+        font-size: 10em;
+    }
+    article#poema{
+        width: 55vw;
+    }
+    article#poema div{
+        width: 35vw;
+    }
+  
+    
 }
