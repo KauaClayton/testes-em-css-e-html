@@ -1,0 +1,46 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'harumi';
+    src: url(japonesa/Japonesa.otf);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+:root{
+    --cor1:#569DBA;
+    --cor2:#5AC1C4;
+    --cor3:#5AC48C;
+    --cor4:#58AD98;
+    --cor5:#56BA68;
+    --fonteTitulo: 'harumi';
+}
+
+header{
+    position: relative;
+    width: 96.5vw;
+    height: 125px;
+    background-color: var(--cor1);
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    color: var(--cor5);
+}
+
+nav{
+    position: absolute;
+    bottom: 3%;
+}
+
+nav > ul > a{
+    background-color: var(--cor2);
+    color: black;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 3px;
+    text-decoration: none;
+}
