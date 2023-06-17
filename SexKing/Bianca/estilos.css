@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+@media screen and  (min-width:768px) {
+    header{
+        width: 98vw;
+    }
+    #ela{
+        max-width: 500px;
+    }
+
+    main{
+        max-width: 500px;
+    }
+    
+    
+}
