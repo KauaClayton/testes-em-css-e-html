@@ -5,15 +5,19 @@ const lugar_tarefas = document.querySelector('#lugar_tarefas')
 class Tarefa{
     constructor(){
         
-     
+        
         this.botao_add =  document.querySelector('#botao')
         this.botao_add.addEventListener('click', ()=>{
             this.tarefa = document.querySelector('#itarefa').value
+            this.caixa_tarefa = document.querySelector('#itarefa')
             this.createCaixao()
+            this.TestaBox()
+            this.caixa_tarefa.focus()
+            this.caixa_tarefa.value = ''
             this.caixao = [...document.querySelectorAll('.caixao')]
             this.taf = [...document.querySelectorAll('.taf')]
             this.caixinhas = [...document.querySelectorAll('.caixinha')]
-            console.log(this.caixinhas)
+           
         })
         // tenho que ver uma forma de fazer a caixinha ser apagada
     }
@@ -31,6 +35,14 @@ class Tarefa{
         tarefa_a_fazer.setAttribute('class', 'taf')
         caixao.appendChild(tarefa_a_fazer)
     }
+    TestaBox = ()=>{setInterval(() => {
+        this.caixinhas.map((el)=>{
+            el.addEventListener('click', ()=>{
+                el.classList.add('clicado')
+                el.parentElement.parentElement.removeChild(el.parentElement)
+            })
+        })
+    }, 1);}
    
 }
 
