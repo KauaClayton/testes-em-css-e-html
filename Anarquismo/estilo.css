@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: 0px ;  
+}
+
+body{
+    width: 98vw;
+    height:100%;
+    background: url('https://w0.peakpx.com/wallpaper/135/677/HD-wallpaper-city-black-and-white-cool-galaxy-lights.jpg') center center no-repeat scroll;
+    background-size: cover;
+
+}
+
+header{
+    background-color: black;
+    font-size: 1.3em;
+    text-align: center;
+    color: white;
+}
+/* lembrar de colocar o ngc da fonte no header */
