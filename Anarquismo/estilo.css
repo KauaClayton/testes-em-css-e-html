@@ -1,5 +1,8 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: 'anarcho';
+    src: url('./anarchaos/Anarchaos.otf');
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -7,8 +10,14 @@
     border: 0px ;  
 }
 
+:root{
+    --cor1:#000;
+    --cor2:#fff;
+    --cor3: #ff0000;
+}
+
 body{
-    width: 98vw;
+    width: 97vw;
     height:100%;
     background: url('https://w0.peakpx.com/wallpaper/135/677/HD-wallpaper-city-black-and-white-cool-galaxy-lights.jpg') center center no-repeat scroll;
     background-size: cover;
@@ -16,9 +25,127 @@ body{
 }
 
 header{
-    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor1);
     font-size: 1.3em;
     text-align: center;
-    color: white;
+    color: var(--cor2);
+    height: 100px;
+    font-family: 'anarcho', cursive;
 }
-/* lembrar de colocar o ngc da fonte no header */
+
+h1 p{
+    display: inline;
+    font-size: 0.6em;
+}
+
+main{
+    background-color: rgba(97, 97, 97, 0.822);
+    width: 93%;
+
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#liberta{
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.308);
+    width: 85vw;
+
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#SelectEImg{
+    display: flex;
+    flex-direction: row;
+}
+
+#libert{
+    float: left;
+    height: 30px;
+    width: 170px;
+    margin: 7px;
+}
+
+#imagi{
+    position:relative;
+    top:6px ;
+    right: -18%;
+    float: right;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+
+}
+#mini_texto{
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 93%;
+    align-self: center;
+}
+
+#livrostema{
+    position: relative;
+    margin-top: 20px;
+    left: 20px;
+    
+    
+}
+
+.livro{
+    display: flex;
+    flex-direction: row;
+}
+
+.livro > p{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.664);
+    left: 37%;
+    width: 300px;
+}
+
+#bibliotecas{
+    
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    height: 220px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.445);
+}
+
+#bibliotecas>ul{
+    position: absolute;
+    top: 122%;
+
+}
+
+#bibliotecas a, li{
+    text-decoration: none;
+    color: rgba(201, 61, 61, 0.788);
+    font-weight: bolder;
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+#bibliotecas a:hover{
+    font-size: 1.3em;
+    text-decoration:underline;
+   
+
+}
+
+/* arrumar pelo amor de Deus a parte do bibliotecas */
