@@ -7,7 +7,8 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    border: 0px ;  
+    border: 0px ;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 :root{
@@ -30,122 +31,76 @@ header{
     justify-content: center;
     align-items: center;
     background-color: var(--cor1);
-    font-size: 1.3em;
+    font-size: 1em;
     text-align: center;
     color: var(--cor2);
     height: 100px;
+    width: 100%;
     font-family: 'anarcho', cursive;
 }
 
-h1 p{
+header p{
     display: inline;
-    font-size: 0.6em;
+    font-size: 1.4em;
+    font-family: 'anarcho';
 }
 
 main{
-    background-color: rgba(97, 97, 97, 0.822);
-    width: 93%;
-
-    margin:auto;
+    position: relative;
+    transform-origin: center center;
+    margin: auto;
+    width: 90%;
+    max-width: 550px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.452);
     margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 10px 0px;
     border-radius: 10px;
 }
 
 #liberta{
+    position: Relative;
 
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.308);
-    width: 85vw;
-
-    height: 300px;
-    margin: auto;
+    width: 90%;
+    left: 5%;
+    height: 400px;
     border-radius: 10px;
 }
-
-#SelectEImg{
-    display: flex;
-    flex-direction: row;
-}
-
-#libert{
-    float: left;
-    height: 30px;
-    width: 170px;
-    margin: 7px;
-}
-
-#imagi{
-    position:relative;
-    top:6px ;
-    right: -18%;
-    float: right;
-    width: 200px;
-    height: 150px;
-    border: 2px solid black;
-
-}
-#mini_texto{
-    margin-top: 10px;
-    background-color: rgba(255, 255, 255, 0.623);
-    width: 93%;
-    align-self: center;
-}
-
-#livrostema{
+#Selecteimg{
     position: relative;
-    margin-top: 20px;
-    left: 20px;
-    
-    
-}
-
-.livro{
     display: flex;
     flex-direction: row;
+    height: 300px;
+ 
 }
 
-.livro > p{
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.664);
-    left: 37%;
-    width: 300px;
+#Selecteimg img{
+    position: relative;
+    width: 50%;
+    max-width: 240px;
+    height:280px;
+    float: right;
+
+    top:5%
 }
 
-#bibliotecas{
-    
-    display: flex;
-    margin: auto;
-    margin-top: 20px;
-    width: 80%;
-    height: 220px;
-    flex-direction: column;
-    align-items: center;
+select{
+    position: relative;
+    float: left;
+    top: 3%;
+    left: -1%;
+    padding: 10px;
+    height: 1px;
+    width: 50%;
+    margin-right: 7px;
+}
+
+#mini_texto{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.999);
     border-radius: 10px;
-    padding-bottom: 30px;
-    background-color: rgba(255, 255, 255, 0.445);
+    top: 3%;
+    text-indent: 10px;
+    margin: 4px;
+    font-size: 1em;
 }
-
-#bibliotecas>ul{
-    position: absolute;
-    top: 122%;
-
-}
-
-#bibliotecas a, li{
-    text-decoration: none;
-    color: rgba(201, 61, 61, 0.788);
-    font-weight: bolder;
-    font-size: 1.2em;
-    margin: 10px;
-}
-
-#bibliotecas a:hover{
-    font-size: 1.3em;
-    text-decoration:underline;
-   
-
-}
-
-/* arrumar pelo amor de Deus a parte do bibliotecas */

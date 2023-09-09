@@ -1,0 +1,56 @@
+@charset "UTf-8";
+
+@media screen and (min-width:769px) {
+    header{
+        font-size: 1.5em;
+    }
+    main{
+        width: 85%;
+        max-width: 630px;
+        margin: auto;
+    }
+    #liberta{
+   
+        max-width: 600px;
+        margin: auto;
+        left: 0%;
+    }
+    #Selecteimg img{
+        width: 60%;
+        left: 15%;
+    }
+    select{
+        width: 40%;
+        left: 10%;
+        top:10%
+    }
+    #mini_texto{
+        font-size: 1.1em;
+    }
+
+
+}
+
+@media screen and (min-width:992px){
+   
+    main{
+        max-width: 750px;
+
+        margin: auto;
+    }
+    #liberta{
+
+        margin: auto;
+    }
+    #Selecteimg img{
+        width: 70%;
+       left: 22%;
+    }
+    select{
+        width: 40%;
+        left: 3%;
+    }
+    #mini_texto{
+        font-size: 1.3em;
+    }
+}
