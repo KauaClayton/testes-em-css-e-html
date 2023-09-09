@@ -3,6 +3,7 @@
 @media screen and (min-width:769px) {
     header{
         font-size: 1.5em;
+
     }
     main{
         width: 85%;
@@ -27,10 +28,19 @@
     #mini_texto{
         font-size: 1.1em;
     }
-
-
+    #TextoLivro{
+        width: 380px;
+        font-size: 1.1em;}
+        #bibliotecas a{
+            font-size: 1.4em;
+        }
+        #bibliotecas a:hover{
+            font-size: 1.6em;
+        }
+        footer{
+            width: 100.6%;
+        }
 }
-
 @media screen and (min-width:992px){
    
     main{
@@ -52,5 +62,8 @@
     }
     #mini_texto{
         font-size: 1.3em;
+    }
+    footer{
+        width: 101.3%;
     }
 }
