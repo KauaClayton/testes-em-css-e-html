@@ -1,2 +1,0 @@
-const imagens = ['imagenstemas/bakunin.png','imagenstemas/kropotkin.jpg', 'imagenstemas/malatesta.jpg', 'imagenstemas/makhno.jpg', 'imagenstemas/marcos.jpg', 'imagenstemas/Recc.PNG', 'imagenstemas/FOB.jpg','imagenstemas/Makhnovtchina.jpg', 'imagenstemas/EZLN.jpg']
-export default imagens
