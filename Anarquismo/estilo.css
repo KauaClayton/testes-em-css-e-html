@@ -123,17 +123,21 @@ h2{
 }
 
 #livrostema h2{
+
     display: none;
+    margin-top: 120px;
+    
 }
 .livro{
     display: flex;
     flex-direction: row;
   position: relative;
-  margin-top: 10px;
+  margin-top: 50px;
   left: 6%;
 }
 .livro img{
     display: none;
+    width: 30%;
 }
 #TextoLivro{
     display: none;
@@ -188,3 +192,5 @@ footer a{
     text-decoration: none;
     
 }
+
+/* arrumar o bglh doas media em relação a margin top tlgd */

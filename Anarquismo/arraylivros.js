@@ -1,1 +1,2 @@
-const livros = ['', '', '', '', '', '', '', '', '']
+const livros = ['livros/deusestado.jpg', 'livros/queropao.jpg', 'livros/escritos.jpg', 'livros/plata.webp', 'livros/subvo.PNG', 'livros/recc.jpg', 'livros/fobi.png', 'livros/maknvt.png', 'livros/ezln.jpg']
+export default livros
