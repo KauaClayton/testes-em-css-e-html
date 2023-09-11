@@ -35,7 +35,7 @@ header{
     text-align: center;
     color: var(--cor2);
     height: 100px;
-    width: 100%;
+    width: 101%;
     font-family: 'anarcho', cursive;
 }
 
@@ -143,7 +143,7 @@ h2{
     display: none;
     position: relative;
     background-color: rgba(255, 255, 255, 0.900);
-    width: 280px;
+    width: 220px;
     left: 20px;
     padding: 10px;
     text-indent: 30px;
@@ -181,7 +181,7 @@ li{
 
 footer{
     margin-top: 10px;
-    width: 100.6%;
+    width: 101.6%;
     padding: 5px;
     background-color: black;
     text-align: center;
