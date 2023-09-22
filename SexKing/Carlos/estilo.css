@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1:#91FFA2;
+    --cor2:#AB78B3;
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    background: url('header.png') center center no-repeat fixed;
+    background-size: cover;
+}
