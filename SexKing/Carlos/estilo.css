@@ -10,10 +10,68 @@
     --cor1:#91FFA2;
     --cor2:#AB78B3;
 }
+body{
+    width: 100vw;
+    height: 100%;
+}
 
-header{
+#otobollpol{
     width: 100%;
     height: 200px;
-    background: url('header.png') center center no-repeat fixed;
+    background-color: black;
+    background: url('./header.png') no-repeat center center scroll;
     background-size: cover;
+}
+
+#otobollpol h1{
+    text-align: center;
+    font-size: 3em;
+    color: black;
+}
+
+main{
+    width: 100%;
+    background-color: var(--cor2);
+    height: 100%;
+}
+
+article{
+    position: relative;
+    top: 10px;
+    background-color: white;
+    box-shadow: 6px 2px 23px rgba(0, 0, 0, 0.886);
+    border-radius: 7px;
+    width: 75%;
+    height: 80%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+h2#ye{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 12px;
+    font-size: 2em;
+}
+
+p{
+    padding: 10px 10px;
+    text-indent: 10px;
+}
+
+h2{
+    padding-left: 10px;
+}
+
+#iframe{
+    width: 420px;
+    margin: auto;
+    padding: 15px;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    padding: 20px;
 }
