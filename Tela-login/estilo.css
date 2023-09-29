@@ -1,0 +1,29 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor1:#694873;
+    --cor2:#BCB6FF;
+    --cor3:#B0C4B1;
+    --cor4:#172815;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor1) );
+    width: 100%;
+    height: 100px;
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 3em;
+    color: white;
+    /* procurar uma fonte para o texto */
+}
