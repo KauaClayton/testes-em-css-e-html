@@ -27,3 +27,103 @@ header{
     color: white;
     /* procurar uma fonte para o texto */
 }
+body{
+    background: url('https://c4.wallpaperflare.com/wallpaper/117/300/936/pokemon-pokemon-omega-ruby-and-alpha-sapphire-legendary-pokemon-mega-rayquaza-pokemon-wallpaper-preview.jpg')  center center no-repeat scroll;
+    background-size: cover;
+    height: 100vh;
+}
+main{
+    position: relative;
+    transform-origin: center center;
+    left: 10%;
+    top: 30px;
+    display: flex;
+    width: 80%;
+    height: 350px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.549);
+    background-color: rgba(255, 255, 255, 0.575);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    position: relative;
+    transform-origin: center center;
+    left: 40%;
+    padding: 20px;
+    max-height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    
+}
+
+#divmsg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px; 
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+}
+.areacxmsg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width:300px;
+}
+#titulo{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    width:100%;
+    background-color:'+this.cor+';
+    color:#fff;
+    padding:5px;
+    border-radius:5px 5px 0px 0p
+}
+
+#corpo{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    width:100%;
+    background-color:#eee;
+    color:#000;
+    padding:30px 5px
+}
+
+#rodape{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    background-color:#ccc;
+    color:#000;
+    padding:5px;
+    border-radius:0px 0px 5px 5px;
+}
+
+.botao{
+    background-color:'+this.cor+';
+    color:#fff;
+    padding:5px 25px;
+    border-radius:5px;
+    cursor:pointer;
+    text-transform:uppercase;
+}
+
+#betao{
+    width: 150px;
+    padding: 10px;
+    
+}
