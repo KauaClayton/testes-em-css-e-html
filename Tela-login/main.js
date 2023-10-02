@@ -17,11 +17,12 @@ input_senha.maxLength = '12'
 input_senha.placeholder ='Digite sua senha'
 const btn = document.createElement('button')
 btn.setAttribute('id', 'betao')
-btn.innerHTML = 'OK'
-btn.addEventListener('click', ()=>{
-    Cxmsg.mostrar(config.cor)
-})
+
 main.appendChild(form)
 form.appendChild(input_nome)
 form.appendChild(input_senha)
 form.appendChild(btn)
+btn.innerHTML = 'OK'
+btn.addEventListener('click', ()=>{
+    Cxmsg.mostrar(config.cor)
+})
